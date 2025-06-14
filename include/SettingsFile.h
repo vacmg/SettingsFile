@@ -95,8 +95,8 @@ public:
     virtual SettingsFileResult close() = 0;
 
     /**
-     * @brief Get the open state of the file.
-     * @return FileStatus The open state of the file.
+     * @brief Get the open status of the file.
+     * @return FileStatus The open status of the file.
      */
     [[nodiscard]] virtual FileStatus getOpenStatus() = 0;
 
